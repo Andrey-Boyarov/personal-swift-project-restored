@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D556DCF02AD1642A0083ABA6 /* PersonalSwiftProjectRestoredApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556DCEF2AD1642A0083ABA6 /* PersonalSwiftProjectRestoredApp.swift */; };
-		D556DCF22AD1642A0083ABA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556DCF12AD1642A0083ABA6 /* ContentView.swift */; };
-		D556DCF42AD1642A0083ABA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D556DCF32AD1642A0083ABA6 /* Assets.xcassets */; };
-		D556DCF72AD1642A0083ABA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D556DCF62AD1642A0083ABA6 /* Preview Assets.xcassets */; };
+		D556DD0E2AD165400083ABA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556DCFE2AD165400083ABA6 /* ContentView.swift */; };
+		D556DD102AD165400083ABA6 /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556DD012AD165400083ABA6 /* GoalsView.swift */; };
+		D556DD112AD165400083ABA6 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556DD022AD165400083ABA6 /* TasksView.swift */; };
+		D556DD122AD165400083ABA6 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556DD032AD165400083ABA6 /* CalendarView.swift */; };
+		D556DD132AD165400083ABA6 /* NavigationToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556DD052AD165400083ABA6 /* NavigationToolbar.swift */; };
+		D556DD142AD165400083ABA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D556DD062AD165400083ABA6 /* Assets.xcassets */; };
+		D556DD152AD165400083ABA6 /* TaskLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556DD082AD165400083ABA6 /* TaskLoader.swift */; };
+		D556DD162AD165400083ABA6 /* DocumentLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556DD092AD165400083ABA6 /* DocumentLoader.swift */; };
+		D556DD172AD165400083ABA6 /* PersonalSwiftProjectRestoredApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556DD0A2AD165400083ABA6 /* PersonalSwiftProjectRestoredApp.swift */; };
+		D556DD182AD165400083ABA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D556DD0C2AD165400083ABA6 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D556DCEC2AD1642A0083ABA6 /* PersonalSwiftProjectRestored.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalSwiftProjectRestored.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D556DCEF2AD1642A0083ABA6 /* PersonalSwiftProjectRestoredApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalSwiftProjectRestoredApp.swift; sourceTree = "<group>"; };
-		D556DCF12AD1642A0083ABA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D556DCF32AD1642A0083ABA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D556DCF62AD1642A0083ABA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D556DCFE2AD165400083ABA6 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D556DD012AD165400083ABA6 /* GoalsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
+		D556DD022AD165400083ABA6 /* TasksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		D556DD032AD165400083ABA6 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		D556DD052AD165400083ABA6 /* NavigationToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationToolbar.swift; sourceTree = "<group>"; };
+		D556DD062AD165400083ABA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D556DD082AD165400083ABA6 /* TaskLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskLoader.swift; sourceTree = "<group>"; };
+		D556DD092AD165400083ABA6 /* DocumentLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentLoader.swift; sourceTree = "<group>"; };
+		D556DD0A2AD165400083ABA6 /* PersonalSwiftProjectRestoredApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalSwiftProjectRestoredApp.swift; sourceTree = "<group>"; };
+		D556DD0C2AD165400083ABA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,18 +63,48 @@
 		D556DCEE2AD1642A0083ABA6 /* PersonalSwiftProjectRestored */ = {
 			isa = PBXGroup;
 			children = (
-				D556DCEF2AD1642A0083ABA6 /* PersonalSwiftProjectRestoredApp.swift */,
-				D556DCF12AD1642A0083ABA6 /* ContentView.swift */,
-				D556DCF32AD1642A0083ABA6 /* Assets.xcassets */,
-				D556DCF52AD1642A0083ABA6 /* Preview Content */,
+				D556DD062AD165400083ABA6 /* Assets.xcassets */,
+				D556DCFE2AD165400083ABA6 /* ContentView.swift */,
+				D556DD072AD165400083ABA6 /* Loaders */,
+				D556DD042AD165400083ABA6 /* NavigationToolbar */,
+				D556DD002AD165400083ABA6 /* NavigationToolbarScreens */,
+				D556DD0A2AD165400083ABA6 /* PersonalSwiftProjectRestoredApp.swift */,
+				D556DD0B2AD165400083ABA6 /* Preview Content */,
 			);
 			path = PersonalSwiftProjectRestored;
 			sourceTree = "<group>";
 		};
-		D556DCF52AD1642A0083ABA6 /* Preview Content */ = {
+		D556DD002AD165400083ABA6 /* NavigationToolbarScreens */ = {
 			isa = PBXGroup;
 			children = (
-				D556DCF62AD1642A0083ABA6 /* Preview Assets.xcassets */,
+				D556DD012AD165400083ABA6 /* GoalsView.swift */,
+				D556DD022AD165400083ABA6 /* TasksView.swift */,
+				D556DD032AD165400083ABA6 /* CalendarView.swift */,
+			);
+			path = NavigationToolbarScreens;
+			sourceTree = "<group>";
+		};
+		D556DD042AD165400083ABA6 /* NavigationToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				D556DD052AD165400083ABA6 /* NavigationToolbar.swift */,
+			);
+			path = NavigationToolbar;
+			sourceTree = "<group>";
+		};
+		D556DD072AD165400083ABA6 /* Loaders */ = {
+			isa = PBXGroup;
+			children = (
+				D556DD082AD165400083ABA6 /* TaskLoader.swift */,
+				D556DD092AD165400083ABA6 /* DocumentLoader.swift */,
+			);
+			path = Loaders;
+			sourceTree = "<group>";
+		};
+		D556DD0B2AD165400083ABA6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D556DD0C2AD165400083ABA6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -99,6 +141,7 @@
 				TargetAttributes = {
 					D556DCEB2AD1642A0083ABA6 = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
@@ -125,8 +168,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D556DCF72AD1642A0083ABA6 /* Preview Assets.xcassets in Resources */,
-				D556DCF42AD1642A0083ABA6 /* Assets.xcassets in Resources */,
+				D556DD182AD165400083ABA6 /* Preview Assets.xcassets in Resources */,
+				D556DD142AD165400083ABA6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +180,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D556DCF22AD1642A0083ABA6 /* ContentView.swift in Sources */,
-				D556DCF02AD1642A0083ABA6 /* PersonalSwiftProjectRestoredApp.swift in Sources */,
+				D556DD0E2AD165400083ABA6 /* ContentView.swift in Sources */,
+				D556DD122AD165400083ABA6 /* CalendarView.swift in Sources */,
+				D556DD162AD165400083ABA6 /* DocumentLoader.swift in Sources */,
+				D556DD172AD165400083ABA6 /* PersonalSwiftProjectRestoredApp.swift in Sources */,
+				D556DD102AD165400083ABA6 /* GoalsView.swift in Sources */,
+				D556DD152AD165400083ABA6 /* TaskLoader.swift in Sources */,
+				D556DD132AD165400083ABA6 /* NavigationToolbar.swift in Sources */,
+				D556DD112AD165400083ABA6 /* TasksView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +318,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PersonalSwiftProjectRestored/Preview Content\"";
@@ -288,6 +338,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AndreyBoyarov.PersonalSwiftProjectRestored;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,6 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PersonalSwiftProjectRestored/Preview Content\"";
