@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct TasksView: View {
+    
     var body: some View {
-        Text("Tasks")
+        VStack{
+            Text("Tasks")
+            Button (action: {
+                // nothing
+            }) {
+                Image(systemName: "gear")
+                    .imageScale(.large)
+                    .bold()
+                    .foregroundColor(Color.blue)
+                    .padding(.horizontal, 10)
+            }}
     }
 }
 
