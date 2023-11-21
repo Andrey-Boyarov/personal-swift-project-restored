@@ -6,8 +6,24 @@
 //
 
 import Foundation
+import SwiftUI
 
-struct TaskView: Identifiable {
-    let id = UUID()
-    var text: String
+struct TaskView: View {
+    @Bindable var task: Task
+    
+    init(_ task: Task) {
+        self.task = task
+    }
+    
+    var body: some View {
+        HStack {
+            
+            Button(action: {
+                task.done.toggle()
+            }) {
+                Image(systemName: task.done ? "circle.dashed.inset.filled" : "circle.dashed")
+            }
+            TextField(text: $task.text, label: {Text("")})
+        }
+    }
 }

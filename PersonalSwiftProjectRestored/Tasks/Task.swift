@@ -12,6 +12,7 @@ import SwiftData
 class Task {
     @Attribute(.unique) var id: UUID
     var text: String
+    var done = false
     
     init(_ text: String) {
         id = UUID.init()
