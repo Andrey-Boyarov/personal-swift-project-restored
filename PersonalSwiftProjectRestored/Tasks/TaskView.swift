@@ -17,13 +17,18 @@ struct TaskView: View {
     
     var body: some View {
         HStack {
-            
             Button(action: {
                 task.done.toggle()
             }) {
-                Image(systemName: task.done ? "circle.dashed.inset.filled" : "circle.dashed")
+                Image(systemName: task.done ? "circle.inset.filled" : "circle")
+                    .imageScale(.large)
             }
+            .buttonStyle(.borderless)
+            .padding(10)
             TextField(text: $task.text, label: {Text("")})
+                .frame(maxHeight: .infinity)
+                .font(.system(size: 20))
+                .textFieldStyle(.plain)
         }
     }
 }

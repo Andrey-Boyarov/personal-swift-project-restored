@@ -35,6 +35,7 @@ struct ContentView: View {
                 }
                 .onDelete(perform: delete)
             }
+            .listStyle(PlainListStyle())
             .overlay(alignment: .bottom) {
                 Button(action: {
                     modelContext.insert(Task(""))
@@ -55,10 +56,12 @@ struct ContentView: View {
                     
                 })
             }
-            
             .tabItem {
                 Image(systemName: "list.bullet")
                 Text("Tasks")
+            }
+            .onTapGesture {
+                UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to:nil, from:nil, for:nil)
             }
         }
     }
