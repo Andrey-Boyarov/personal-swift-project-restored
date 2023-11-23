@@ -24,7 +24,7 @@ struct TaskView: View {
                     .imageScale(.large)
             }
             .buttonStyle(.borderless)
-            .padding(10)
+            .padding(7)
             TextField(text: $task.text, label: {Text("")})
                 .frame(maxHeight: .infinity)
                 .font(.system(size: 20))
